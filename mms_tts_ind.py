@@ -162,7 +162,7 @@ def tts(txt, save_audio=False, save_path=None):
 
     if save_audio:
         if save_path is None:
-            save_path = f"{txt}.wav"
+            save_path = f"out.wav"
         write(save_path, hps.data.sampling_rate, hyp)
         print(f"Saved audio to {save_path}")
 
