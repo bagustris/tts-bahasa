@@ -17,7 +17,7 @@ pip install -r requirements.txt
   ```bash
   git clone clone https://github.com/jaywalnut310/vits.git
   cd vits
-  cd monlitic_align
+  cd monolitic_align
   python3 setup.py build_ext --inplace
   cd ..
   
